@@ -1,0 +1,55 @@
+
+
+    .body{ display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        flex-direction: row;
+
+    }
+    
+   
+ 
+
+.form{
+    background-color: rgb(230, 221, 210);
+    border: 1px solid rgb(31, 21, 9);
+   
+    text-align: center;
+}
+#button{
+    background-color: orangered;
+    height: 30px;
+    width: 100px;
+    border-radius: 6px;
+    border: 2px solid black;
+    
+}
+#head{
+    font-size: 30px;
+    font-weight: bold;
+}
+#amount{
+    font-size: 35px;
+    font-weight: bold;
+
+}
+p{
+    font-size: 25px; 
+}
+#button:hover{
+    background-color: orange;
+}
+
+@media ( max-width:700px){
+    .body{
+        flex-direction: column;
+    }
+    .form{
+        margin: 10px;
+    }
+}
+
+
+
+
